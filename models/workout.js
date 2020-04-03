@@ -38,3 +38,5 @@ const workoutSchema = new Schema({
         }
     ]
 });
+
+module.exports = workout;
