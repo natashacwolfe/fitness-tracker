@@ -38,11 +38,6 @@ const workoutSchema = new Schema({
             }
         }
     ]
-    // },
-    //     {
-    //         toJSON: {
-    //             virtuals: true
-    //         }
 });
 
 workoutSchema.set('toJSON', { virtuals: true });
